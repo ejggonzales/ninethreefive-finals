@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Features - NineThreeFive</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand d-flex justify-content-between align-items-center order-lg-0">
+                <img src="./images/NineThreeFive.png" alt="Logo" class="img-logo">
+                <!-- <h3>Ninethreefive</h3> -->
+            </a>
+    
+            <div class="order-lg-2">
+                <!-- <button type="button" class="btn position-relative modal-active nav-icons" onclick="openSearch()">
+                    <i class="fa fa-magnifying-glass fs-4"></i>
+                </button> -->
+    
+                <!-- <button type="button" class="btn position-relative nav-icons">
+                    <i class="fa fa-shopping-cart fs-4"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-num">0</span>
+                </button> -->
+    
+                <button type="button" class="btn position-relative nav-item dropdown nav-icons">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa fa-user fs-4"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="signup.html">Sign Up</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="login.html">Login</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="customerlist.html">Customer List</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="customermessages.html">Customer Messages</a></li>
+                    </ul>
+                </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1 " id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a href="index.html" class="nav-link text-dark fs-4">Home</a>
+                    </li>
+
+                    <li class="nav-item px-2 py-2">
+                        <a href="features.html" class="nav-link text-dark fs-4">Features</a>
+                    </li>
+
+                    <li class="nav-item px-2 py-2">
+                        <a href="products.html" class="nav-link text-dark fs-4">Products</a>
+                    </li>
+
+                    <li class="nav-item px-2 py-2">
+                        <a href="contact.html" class="nav-link text-dark fs-4">Contact Us</a>
+                    </li>
+
+                    <!-- <li class="nav-item px-2 py-2 border-0">
+                        <a href="#" class="nav-link text-dark fs-4">Contact Us</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+     <!-- Search Box Area Start -->
+     <div class="body-popup-modal-area" id="search-overlay">
+        <span class="modal-close" onclick="closeSearch()"><img src="./images/cancel.png" alt="Close" class="img-fluid"/></span>
+        <div class="modal-container d-flex">
+            <div class="search-box-area">
+                <div class="search-box-form">
+                    <form action="#" method="post">
+                        <input type="search" class="no-cancel-button" placeholder="SEARCH"/>
+                        <button class="btn" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search Box Area End -->
+
+        <!-- Page Title Start -->
+        <div id="page-title-area1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="page-title-content">
+                            <h1>NineThreeFive Features</h1>
+                            <p>Know more about the business</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Title End -->
+
+    <!-- Main Content Start -->
+    <!-- 1st vid -->
+    <div class="container-fluid py-4 px-0 bg-img-fv">
+        <div class="container py-lg-5 my-1">
+            <div class="row align-items-center">
+                <!-- Video on the left -->
+                <div class="col-lg-7 col-md-12">
+                    <div class="video-wrapper" style="max-width: 100%; margin: auto;">
+                        <video width="100%" height="auto" poster="./vids/thumbnail1.png" controls>
+                            <source src="vids/935model.mp4" type="video/mp4">
+                            <source src="vids/935model.ogg" type="video/ogg">
+                        </video>
+                    </div>
+                </div>
+
+                <!-- Text on the right -->
+                <div
+                    class="col-lg-5 col-md-12 text-lg-start text-sm-end mt-3 mt-lg-0 vid-text px-lg-5 px-md-4">
+                    <div class="vid-text text-center">
+                        <h4 class="pb-3 fs-1">Different Types of Bags</h4>
+                        <p>Elevate your style with our beautifully crafted crochet bags. We have different types, each designed for different needs and styles. Choose from our categories, or you can reach out to us if you wish to have a customized order. Each piece is meticulously handmade, offering both functionality and unique charm to fit your fashion and lifestyle.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- carousel -->
+    <div class="container py-3 my-5">
+        <div class="row align-items-center justify-content-center fpics">
+            <!-- Text Column -->
+            <div class="col-12 col-md-6 col-lg-5 py-3 d-flex justify-content-center order-2 order-md-1">
+                <div class="text-container text-center">
+                    <h4 class="fs-1 pb-3">Pop-Up Booths</h4>
+                    <p>We collaborate with other local businesses wherein we open pop-up booths and sell our products for a number of days. These partnerships have allowed us to strengthen our community ties, and to further reach a wider audience that may want to buy our bags. By working together with other businesses, we strive to bring fresh perspectives and innovative touches to our bags in order to make them more special.</p>
+                </div>
+            </div>
+
+            <!-- Carousel Column -->
+            <div class="col-12 col-md-6 col-lg-7 py-4 d-flex justify-content-center order-1 order-md-2">
+                <div id="carouselExampleIndicators" class="carousel carousel-features slide" data-bs-wrap="true" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner carousel-features">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/Portrait-1.jpeg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/Portrait-2.jpeg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/Portrait-3.jpeg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/Portrait-4.jpeg" alt="Fourth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/Portrait-5.jpg" alt="Fifth slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2nd vid -->
+    <div class="container-fluid py-lg-5 py-5 px-0 bg-img-fv">
+        <div class="container py-4 my-1">
+            <div class="row align-items-center">
+                <!-- Video on the left -->
+                <div class="col-lg-7 col-md-12">
+                    <div class="video-wrapper" style="max-width: 100%; margin: auto;">
+                        <video width="100%" height="auto" poster="./vids/thumbnail2.png" controls>
+                            <source src="vids/935materials.mp4" type="video/mp4">
+                            <source src="vids/935materials.ogg" type="video/ogg">
+                        </video>
+                    </div>
+                </div>
+
+                <!-- Text on the right -->
+                <div class="col-lg-5 col-md-12 text-lg-start text-sm-end mt-3 mt-lg-0 vid-text px-lg-5 px-md-4">
+                    <h4 class="pb-3 fs-1 text-center">Materials & Accessories</h4>
+                    <p>In creating our bags, we use Velvet and Rib-knit yarns.  Velvet yarn adds a soft, luxurious touch and a glossy finish that catches the eye while Rib-knit gives a sturdy, stretchy base that holds its shape and can handle daily wear. By using these two as our bag's key material, we are able to create elegant and durable crochet bags.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- infographics -->
+    <div class="container py-3 my-5">
+        <div class="text-container text-center fpics2">
+            <h4 class="fs-1 pb-3">The NineThreeFive Process</h4>
+            <p>Here is how we operate or how we handle our orders, highlighting the transformation of our bags from start to finish.</p>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <img src="images/infog2.png" alt="infographics" class="img-fluid border border-2" style="max-width: 90%;">
+            </div>
+        </div>
+    </div>
+    <!-- Main Content End -->
+
+    <!-- footer -->
+    <footer class="bg-dark py-5">
+        <div class="container text-light text-center">
+            <div class="container d-flex justify-content-center py-2">
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-1 bg-dark">
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2 bg-dark">
+                    <i class="fab fa-instagram"></i>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-1 bg-dark">
+                    <i class="fab fa-tiktok"></i>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-1 bg-dark">
+                    <i class="fa-solid fa-envelope"></i>
+                </button>
+            </div>
+
+            <p class="fs-1 mb-2">Ninethreefive</p>
+            <small class="text-white-50">&copy; Copyright by Ninethreefive. All rights reserved.</small>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="script/scripts.js"></script>
+    <script src="script/addtocart.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<div class="row row-cols-1 row-cols-md-3 g-5 pt-4 pb-3">
+            <div class="col">
+                <div class="card">
+                    <img src="./images/bag-placeholder.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mb-2 fw-bolder">Product Name</h5>
+                        <!-- <p class="card-text text-center"></p> -->
+                    </div>
+
+                    <div class="d-flex justify-content-around mb-3">
+                        <h5 class="fw-medium">&#8369 1,000</h5>
+                        <h5 class="fw-medium">Available in _ colors </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="./images/bag-placeholder.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mb-2 fw-bolder">Product Name</h5>
+                        <!-- <p class="card-text text-center"></p> -->
+                    </div>
+
+                    <div class="d-flex justify-content-around mb-3">
+                        <h5 class="fw-medium">&#8369 1,000</h5>
+                        <h5 class="fw-medium">Available in _ colors </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="./images/bag-placeholder.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mb-2 fw-bolder">Product Name</h5>
+                        <!-- <p class="card-text text-center"></p> -->
+                    </div>
+
+                    <div class="d-flex justify-content-around mb-3">
+                        <h5 class="fw-medium">&#8369 1,000</h5>
+                        <h5 class="fw-medium">Available in _ colors </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+CSS
+
+.container .title {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+
+/* .fade-in-image {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+  }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+} */
+
+/* .container title::before 
+    content: '';
+    background: #e74c3c;
+    width: 210px;
+    height: 5px;
+    position: relative;
+    bottom: -105px;
+    left: 50%;
+    transform: translateX(-50%);

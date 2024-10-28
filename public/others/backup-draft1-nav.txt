@@ -1,0 +1,236 @@
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <!-- <a class="navbar-logo-contain" href="#"><img src="./images/ninethreefive_logo.jpg" alt="" class="navbar-logo"></a> -->
+            <!-- <a class="navbar-brand" href="#"><img src="./images/ninethreefive_logo.jpg" class="navbar-logo">Ninethreefive</a> -->
+
+            <!-- LOGO -->
+            <a class="navbar-brand" href="home.html">Ninethreefive</a>
+
+            <!-- HAMBURGER ICON -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span><span></span><span></span>
+                <!-- <span></span>
+                <span></span>
+                <span></span> -->
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h2 class="offcanvas-title" id="offcanvasNavbarLabel">Ninethreefive</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="features.html">Features</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="product-list.html">Products</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="product-list.html">Contact Us</a>
+                        </li>
+
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li> -->
+
+                        
+                    </ul>
+
+                    <form class="d-flex navbar-nav ms-auto" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+
+                    <i class="fa-solid fa-cart-shopping fs-4 mx-3 addtocart"></i>
+                    
+                    <li class="nav-item dropdown fs-4 mx-3 user">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Sign In</a></li>
+                            <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Login</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">Ninethreefive</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></span><span></span><span></span>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h2 class="offcanvas-title" id="offcanvasNavbarLabel">Ninethreefive</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bolder" href="home.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link fw-bolder" href="features.html">Features</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link fw-bolder" href="#">Products</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link fw-bolder" href="#">Contact Us</a>
+                        </li>
+
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li> -->
+                    </ul>
+
+                    <li><a href="#" class="modal-active" onclick="openSearch()"><i class="fa-solid fa-magnifying-glass fs-4 mx-2 d-flex my-3"></i></a></li>
+                    <li><i class="fa-solid fa-cart-shopping fs-4 mx-3 d-flex my-3 addtocart"></i></li>
+                    
+                    <li class="nav-item dropdown fs-4 mx-2 user">
+                        <a class="nav-link dropdown-toggle d-flex my-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                            <li><a class="dropdown-item" href="#">Login</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+/* NAV START */
+
+.navbar {
+    background: white;
+    padding: 2rem 2rem;
+    height: 0rem;
+    min-height: 15vh;
+}
+
+/* .navbar .navbar-logo {
+    max-width: 18%;
+    height: 18%;
+    border-radius: 50px;
+} */
+
+.navbar .navbar-brand a {
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    color: #e74c3c;
+}
+
+.navbar-toggler {
+    background: #e74c3c;
+    border: none;
+    padding: 10px 10px;
+}
+
+.navbar-toggler span{
+    display: block;
+    width: 30px;
+    background: white;
+    height: 3px;
+    border: 1px;
+}
+
+.navbar-toggler span + span {
+    margin-top: 7px;
+    width: 30px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: .5rem 1.2rem;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #e74c3c;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #e74c3c;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before, .nav-link:active::before {
+    width: 100%;
+    visibility: visible;
+}
+
+.offcanvas-body li {
+    list-style-type: none;
+}
+
+.offcanvas-body i, .offcanvas-body a {
+    color: rgba(12, 16, 19, 0.7);
+}
+
+.offcanvas-body i:hover, .offcanvas-body a:hover {
+    color: #e74c3c;
+}
+
+/* .navbar-collapse {
+    display: block;
+    position: absolute;
+    padding-bottom: 20px;
+} */
+
+/* NAV END */

@@ -1,0 +1,123 @@
+<div class="hero" id="cover">
+        <div class="container-carousel container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="prod-label">
+                        <h1>Best Seller</h1>
+                    </div>
+
+                    <div class="prod-name">
+                        <h1>Product Name</h1>
+                    </div>
+
+                    <div class="prod-description">
+                        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Orci varius eros sodales porta aliquam. Accumsan non amet nisi platea; commodo consequat dui. Senectus mauris pellentesque quisque neque nunc?</p>
+                    </div>
+
+                    <div class="color-picker">
+                        <h3>Comes in three colors:</h3>
+                    </div>
+
+                    <!-- <div class="color-indicators mb-3">
+                        <button type="button" name="color" id="color-1" onclick="imgSlider('./images/bag-1-home-slider-1.png'); changeBg1()"></button>
+                        <button type="button" name="color" id="color-2" onclick="imgSlider('./images/bag-2-home-slider.png'); changeBg2()"></button>
+                        <button type="button" name="color" id="color-3" onclick="imgSlider('./images/bag-1-home-slider-3.png'); changeBg3()"></button>
+                    </div> -->
+
+                     <div class="color-indicators mb-3">
+                        <button type="button" name="color" id="color-1" onclick="imgSlider('./images/bag-1-home-slider-1.png'); changeBg('#B4E380')"></button>
+                        <button type="button" name="color" id="color-2" onclick="imgSlider('./images/bag-2-home-slider.png'); changeBg('#97b6e2')"></button>
+                        <button type="button" name="color" id="color-3" onclick="imgSlider('./images/bag-1-home-slider-3.png'); changeBg('#FFB4C2')"></button>
+                    </div>
+                    
+                    <div class="cta">
+                        <button class="btn btn-primary rounded-3 mt-3 custom-btn" type="button">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="./images/bag-1-home-slider-1.png" alt="" class="prod-img img-fluid" id="prod-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+// START CHANGING PRODUCT AND COLOR
+// function imgSlider(anything) {
+//   document.querySelector('#prod-img').src = anything;
+// }
+
+// function changeBg1() {
+//   document.querySelector('#cover').style.background = "url(../images/green-bg-hero.jpg)";
+//   document.querySelector('#cover').style.backgroundRepeat = "no-repeat";
+//   document.querySelector('#cover').style.backgroundSize = "cover";
+// }
+
+// function changeBg2() {
+//   document.querySelector('#cover').style.background = "url(../images/blue-bg-hero.jpg)";
+//   document.querySelector('#cover').style.backgroundRepeat = "no-repeat";
+//   document.querySelector('#cover').style.backgroundSize = "cover";
+// }
+
+// function changeBg3() {
+//   document.querySelector('#cover').style.background = "url(../images/pink-bg-hero.jpg)";
+//   document.querySelector('#cover').style.backgroundRepeat = "no-repeat";
+//   document.querySelector('#cover').style.backgroundSize = "cover";
+// }
+
+// function changeBg(color) {
+//   const bgchange = document.querySelector('#cover');
+//   bgchange.style.background = color;
+// }
+// END CHANGING PRODUCT AND COLOR
+
+
+
+
+/* PRODUCT COLOR CHANGE START */
+.hero {
+    background: #B4E380;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 105px;
+    height: 90vh;
+}
+
+/* .container-carousel {
+    margin: 5rem 0;
+}   */
+
+.color-indicators button {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: hsl(30, 50%, 75%);
+    border-radius: 50%;
+    box-shadow: 0 0 0 0.3em #fff, 0.5em 0.5em 1em -0.15em rgba(0, 0, 0, 1);
+    margin-left: 1em;
+    border: none;
+}
+
+.color-indicators button:nth-of-type(1) {
+    background-color: #B4E380;
+}
+
+.color-indicators button:nth-of-type(2) {
+    background-color: #97b6e2;
+}
+
+.color-indicators button:nth-of-type(3) {
+    background-color: #FFB4C2;
+}
+
+.prod-img {
+    width: 78%;
+}
+
+.prod-label,
+.prod-name,
+.prod-description {
+    margin: 24px 0;
+}
+
+/* PRODUCT COLOR CHANGE END */

@@ -1,0 +1,58 @@
+<div class="container bagprods my-5 pb-5">
+        <h1 class="text-center title">Popular Now</h1>
+        <hr class="mx-auto">
+    
+        <div class="row mt-5">
+            <div class="col-lg-6 col-md-12 col-12">
+                <img src="./images/Placeholder-1.png" class="img-fluid w-100 pb-2" id="mainBagProdImg" alt="">
+    
+                <!-- <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="./images/Placeholder-1.png" width="100%" class="small-img img-fluid" id="smallImg" alt="">
+                    </div>
+    
+                    <div class="small-img-col">
+                        <img src="./images/Placeholder-2.png" width="100%" class="small-img" id="smallImg" alt="">
+                    </div>
+    
+                    <div class="small-img-col">
+                        <img src="./images/Placeholder-3.png" width="100%" class="small-img" id="smallImg" alt="">
+                    </div>
+    
+                    <div class="small-img-col">
+                        <img src="./images/Placeholder-4.png" width="100%" class="small-img" id="smallImg" alt="">
+                    </div>
+                </div> -->
+            </div>
+    
+            <div class="col-lg-6 col-md-12 col-12 px-lg-5 pe-sm-5">
+                <h1 class="pt-4 pb-2 prodname">Product Name</h1>
+
+                <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.</p>
+    
+                <h2 class="pt-2">&#8369 1,000</h2>
+    
+                <div class="color-indicators pt-3 mb-4">
+                    <p class="fw-bold fs-5">COLORS</p>
+                    <button type="button" name="color" id="color-1" onclick="imgSlider('./images/Placeholder-1.png');"></button>
+                    <button type="button" name="color" id="color-2" onclick="imgSlider('./images/Placeholder-2.png');"></button>
+                    <button type="button" name="color" id="color-3" onclick="imgSlider('./images/Placeholder-3.png');"></button>
+                    <button type="button" name="color" id="color-3" onclick="imgSlider('./images/Placeholder-4.png');"></button>
+                </div>
+    
+                <div class="d-flex flex-row my-3">
+                    <div class="counter">
+                        <span class="minus">-</span>
+                        <span class="num">01</span>
+                        <span class="plus">+</span>
+                    </div>
+                    <div class="ps-4">
+                    <button type="button" class="buy-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

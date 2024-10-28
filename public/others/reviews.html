@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reviews - NineThreeFive</title>
+    
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+        <div class="container">
+            <a href="home.html" class="navbar-brand d-flex justify-content-between align-items-center order-lg-0">
+                <img src="./images/NineThreeFive.png" alt="Logo" class="img-logo">
+                <!-- <h3>Ninethreefive</h3> -->
+            </a>
+    
+            <div class="order-lg-2">
+                <button type="button" class="btn position-relative modal-active nav-icons" onclick="openSearch()">
+                    <i class="fa fa-magnifying-glass fs-4"></i>
+                </button>
+    
+                <!-- <button type="button" class="btn position-relative nav-icons">
+                    <i class="fa fa-shopping-cart fs-4"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-num">0</span>
+                </button> -->
+    
+                <button type="button" class="btn position-relative nav-item dropdown nav-icons">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa fa-user fs-4"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="signup.html">Sign Up</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="login.html">Login</a></li>
+                    </ul>
+                </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1 " id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a href="home.html" class="nav-link text-dark fs-4">Home</a>
+                    </li>
+
+                    <li class="nav-item px-2 py-2">
+                        <a href="features.html" class="nav-link text-dark fs-4">Features</a>
+                    </li>
+
+                    <li class="nav-item px-2 py-2">
+                        <a href="products.html" class="nav-link text-dark fs-4">Products</a>
+                    </li>
+
+                    <li class="nav-item px-2 py-2">
+                        <a href="reviews.html" class="nav-link text-dark fs-4">Reviews</a>
+                    </li>
+
+                    <li class="nav-item px-2 py-2">
+                        <a href="contact.html" class="nav-link text-dark fs-4">Contact Us</a>
+                    </li>
+
+                    <!-- <li class="nav-item px-2 py-2 border-0">
+                        <a href="#" class="nav-link text-dark fs-4">Contact Us</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search Box Area Start -->
+    <div class="body-popup-modal-area" id="search-overlay">
+        <span class="modal-close" onclick="closeSearch()"><img src="./images/cancel.png" alt="Close" class="img-fluid"/></span>
+        <div class="modal-container d-flex">
+            <div class="search-box-area">
+                <div class="search-box-form">
+                    <form action="#" method="post">
+                        <input type="search" class="no-cancel-button" placeholder="SEARCH"/>
+                        <button class="btn" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Search Box Area End -->
+
+    <!-- Page Title Start -->
+    <div id="page-title-area2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="page-title-content">
+                        <h1>Customer Reviews</h1>
+                        <p>What our customers think about us</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Title End -->
+    
+    <!-- Reviews Start -->
+    <div class="container my-5 pb-5 reviews">
+        <div class="row gy-4">
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card p-4 h-100">
+                    <p class="yarn-rating">🧶🧶🧶🧶🧶</p>
+                    <p class="rating-description">Seamless perfection!</p>
+                    <h5 class="card-title">Exceptional Quality and Service</h5>
+                    <p class="card-text px-2 pt-2">
+                        Absolutely thrilled with my purchase from NineThreeFive! The yarn bags are beautifully crafted and
+                        incredibly durable. The attention to detail is exceptional, and the colors are vibrant. Plus, the
+                        customer service was top-notch—very helpful and responsive. Highly recommend!
+                    </p>
+                    <div class="divider"></div>
+                    <p class="reviewer-name">Stefano Jefferson</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card p-4 h-100">
+                    <p class="yarn-rating">🧶🧶🧶🧶</p>
+                    <p class="rating-description">Almost a perfect weave!</p>
+                    <h5 class="card-title">Great Products with Minor Shipping Delay</h5>
+                    <p class="card-text px-2 pt-2">
+                        The service is great, but there’s room for improvement in the delivery time. Still, I love their
+                        products!
+                    </p>
+                    <div class="divider"></div>
+                    <p class="reviewer-name">Lacro Torrealba</p>
+                </div>
+            </div>
+    
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card p-4 h-100">
+                    <p class="yarn-rating">🧶🧶🧶</p>
+                    <p class="rating-description">Fairly well stitched</p>
+                    <h5 class="card-title">Good Quality</h5>
+                    <p class="card-text px-2 pt-2">
+                        NineThreeFive offers a fantastic selection of yarn-based products. I recently bought a tote bag and
+                        a set of yarn organizers, and they both exceeded my expectations in terms of quality and design. My
+                        only gripe is the shipping took longer than expected. Still, I'll definitely be back for more!
+                    </p>
+                    <div class="divider"></div>
+                    <p class="reviewer-name">Katherine Miranda</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="container shadow-lg reviews2">
+        <div class="row">
+                <div class="col-md-6">
+                    <h2 class="text-dark">Feedback Form</h2>
+                    <p class="text-dark">We would love to hear your thoughts, concerns, or any problems so we can improve our service!</p>
+                </div>
+                <hr>
+                <form action="#">
+                    <div class="form-group mt-3 mb-3">
+                        <label for="#" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label for="review-title" class="form-label">Title:</label>
+                        <input type="text" class="form-control" id="review-title" placeholder="Enter a title for your review">
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label for="yarn-rating" class="form-label">How do you feel about NineThreeFive?</label>
+                        <select class="form-select" id="yarn-rating">
+                            <option value="1">🧶 - A little rough around the edges</option>
+                            <option value="2">🧶🧶 - Knitting together, but needs work</option>
+                            <option value="3">🧶🧶🧶 - Fairly well stitched</option>
+                            <option value="4">🧶🧶🧶🧶 - Almost a perfect weave!</option>
+                            <option value="5">🧶🧶🧶🧶🧶 - Seamless perfection!</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group mb-2">
+                        <label for="#" class="form-label">Describe Feedback</label>
+                        <textarea rows="4" class="form-control" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit Feedback</button>
+                </form>
+        </div>
+    </div> -->
+    <div class="container shadow-lg my-5" style="width: 80%;">
+        <div class="p-4 mt-5 no-hover">
+            <h2 class="text-dark text-center feedback-title pt-3">Feedback Form</h2>
+            <p class="text-dark text-center feedback-text fs-5">We would love to hear your thoughts, concerns, or any problems so we can improve our service!</p>
+    
+            <form class="mx-lg-5 my-4">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+    
+                <div class="mb-3">
+                    <label for="review-title" class="form-label">Title:</label>
+                    <input type="text" class="form-control" id="review-title" placeholder="Enter a title for your review">
+                </div>
+
+                <div class="mb-3">
+                    <label for="yarn-rating" class="form-label">How do you feel about NineThreeFive?</label>
+                    <select class="form-select" id="yarn-rating">
+                        <option value="1">🧶 - A little rough around the edges</option>
+                        <option value="2">🧶🧶 - Knitting together, but needs work</option>
+                        <option value="3">🧶🧶🧶 - Fairly well stitched</option>
+                        <option value="4">🧶🧶🧶🧶 - Almost a perfect weave!</option>
+                        <option value="5">🧶🧶🧶🧶🧶 - Seamless perfection!</option>
+                    </select>
+                </div>
+    
+                <div class="mb-3">
+                    <label for="feedback" class="form-label">Feedback:</label>
+                    <textarea class="form-control" id="feedback" rows="5" placeholder="Leave your feedback here"></textarea>
+                </div>
+
+                <button type="submit" class="buy-btn d-flex justify-content-end">Submit</button>
+            </form>
+        </div>
+    </div> 
+    <!-- Reviews End -->
+      
+    <!-- Footer Start -->
+    <footer class="bg-dark py-5">
+        <div class="container text-light text-center">
+            <div class="container d-flex justify-content-center py-2">
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-1 bg-dark">
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2 bg-dark">
+                    <i class="fab fa-instagram"></i>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-1 bg-dark">
+                    <i class="fab fa-tiktok"></i>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-1 bg-dark">
+                    <i class="fa-solid fa-envelope"></i>
+                </button>
+            </div>
+
+            <p class="fs-1 mb-2">Ninethreefive</p>
+            <small class="text-white-50">&copy; Copyright by Ninethreefive. All rights reserved.</small>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="script/scripts.js"></script>
+    <script src="script/addtocart.js"></script>
+</body>
+
+</html>

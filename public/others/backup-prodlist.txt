@@ -1,0 +1,163 @@
+ <!-- <div id="collection" class="py-5 collection">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="position-relative d-inline-block">Our Products</h2>
+            </div>
+
+            <div class="row-g-0">
+                <div class="d-flex flex-wrap justify-content-center my-5 col-cat filter-button-group">
+                    <button type="button" class="btn m-2 text-dark active-filter-btn" data-name="all">All
+                        Products</button>
+                    <button type="button" class="btn m-2 text-dark" data-name="bestseller">Best Sellers</button>
+                    <button type="button" class="btn m-2 text-dark" data-name="original">Cloudia Original</button>
+                    <button type="button" class="btn m-2 text-dark" data-name="casette">Cloudia Casette</button>
+                    <button type="button" class="btn m-2 text-dark" data-name="puff">Cloudia Puff</button>
+                    <button type="button" class="btn m-2 text-dark" data-name="cashmere">Cloudia Cashmere</button>
+                </div>
+
+                <div class="collection-list mt-4 row gx-0 gy-3">
+                    <div class="col-xl-3 col-lg-4 col-md-6 p-2 filterProd" data-name="bestseller">
+                        <div class="collection-img">
+                            <img src="./images/sampleprodpic.png" alt="" class="w-100">
+                        </div>
+
+                        <div class="text-center">
+                            <div class="product-details">
+                                <h1 class="text-capitalize my-1">Product 1</h1>
+                                <span>in 3 colors |</span>
+                                <p class="fw-bold">₱2,500.00 PHP</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 p-2 filterProd" data-name="casette">
+                        <div class="collection-img">
+                            <img src="./images/sampleprodpic.png" alt="" class="w-100">
+                        </div>
+
+                        <div class="text-center">
+                            <div class="product-details">
+                                <h1 class="text-capitalize my-1">Product 2</h1>
+                                <span>in 3 colors |</span>
+                                <p class="fw-bold">₱2,500.00 PHP</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 p-2 filterProd" data-name="puff">
+                        <div class="collection-img">
+                            <img src="./images/sampleprodpic.png" alt="" class="w-100">
+                        </div>
+
+                        <div class="text-center">
+                            <div class="product-details">
+                                <h1 class="text-capitalize my-1">Product 3</h1>
+                                <span>in 3 colors |</span>
+                                <p class="fw-bold">₱2,500.00 PHP</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 p-2 filterProd" data-name="bestseller">
+                        <div class="collection-img">
+                            <img src="./images/sampleprodpic.png" alt="" class="w-100">
+                        </div>
+
+                        <div class="text-center">
+                            <div class="product-details">
+                                <h1 class="text-capitalize my-1">Product 4</h1>
+                                <span>in 3 colors |</span>
+                                <p class="fw-bold">₱2,500.00 PHP</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 p-2 filterProd" data-name="casette">
+                        <div class="collection-img">
+                            <img src="./images/sampleprodpic.png" alt="" class="w-100">
+                        </div>
+
+                        <div class="text-center">
+                            <div class="product-details">
+                                <h1 class="text-capitalize my-1">Product 5</h1>
+                                <span>in 3 colors |</span>
+                                <p class="fw-bold">₱2,500.00 PHP</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 p-2 filterProd" data-name="puff">
+                        <div class="collection-img">
+                            <img src="./images/sampleprodpic.png" alt="" class="w-100">
+                        </div>
+
+                        <div class="text-center">
+                            <div class="product-details">
+                                <h1 class="text-capitalize my-1">Product 6</h1>
+                                <span>in 3 colors |</span>
+                                <p class="fw-bold">₱2,500.00 PHP</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 p-2 filterProd" data-name="cashmere">
+                        <div class="collection-img">
+                            <img src="./images/sampleprodpic.png" alt="" class="w-100">
+                        </div>
+
+                        <div class="text-center">
+                            <div class="product-details">
+                                <h1 class="text-capitalize my-1">Product 7</h1>
+                                <span>in 3 colors |</span>
+                                <p class="fw-bold">₱2,500.00 PHP</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 p-2 filterProd" data-name="original">
+                        <div class="collection-img">
+                            <img src="./images/sampleprodpic.png" alt="" class="w-100">
+                        </div>
+
+                        <div class="text-center">
+                            <div class="product-details">
+                                <h1 class="text-capitalize my-1">Product 8</h1>
+                                <span>in 3 colors |</span>
+                                <p class="fw-bold">₱2,500.00 PHP</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 p-2 filterProd" data-name="cashmere">
+                        <div class="collection-img">
+                            <img src="./images/sampleprodpic.png" alt="" class="w-100">
+                        </div>
+
+                        <div class="text-center">
+                            <div class="product-details">
+                                <h1 class="text-capitalize my-1">Product 9</h1>
+                                <span>in 3 colors |</span>
+                                <p class="fw-bold">₱2,500.00 PHP</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 p-2 filterProd" data-name="original">
+                        <div class="collection-img">
+                            <img src="./images/sampleprodpic.png" alt="" class="w-100">
+                        </div>
+
+                        <div class="text-center">
+                            <div class="product-details">
+                                <h1 class="text-capitalize my-1">Product 10</h1>
+                                <span>in 3 colors |</span>
+                                <p class="fw-bold">₱2,500.00 PHP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div> -->

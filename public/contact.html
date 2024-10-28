@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - NineThreeFive</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand d-flex justify-content-between align-items-center order-lg-0">
+                <img src="./images/NineThreeFive.png" alt="Logo" class="img-logo">
+                <!-- <h3>Ninethreefive</h3> -->
+            </a>
+
+            <div class="order-lg-2">
+                <!-- <button type="button" class="btn position-relative modal-active nav-icons" onclick="openSearch()">
+                    <i class="fa fa-magnifying-glass fs-4"></i>
+                </button> -->
+
+                <!-- <button type="button" class="btn position-relative nav-icons">
+                    <i class="fa fa-shopping-cart fs-4"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-num">0</span>
+                </button> -->
+
+                <button type="button" class="btn position-relative nav-item dropdown nav-icons">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa fa-user fs-4"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="signup.html">Sign Up</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="login.html">Login</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="customerlist.html">Customer List</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="customermessages.html">Customer Messages</a></li>
+                    </ul>
+                </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1 " id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a href="index.html" class="nav-link text-dark fs-4">Home</a>
+                    </li>
+
+                    <li class="nav-item px-2 py-2">
+                        <a href="features.html" class="nav-link text-dark fs-4">Features</a>
+                    </li>
+
+                    <li class="nav-item px-2 py-2">
+                        <a href="products.html" class="nav-link text-dark fs-4">Products</a>
+                    </li>
+
+                    <li class="nav-item px-2 py-2">
+                        <a href="contact.html" class="nav-link text-dark fs-4">Contact Us</a>
+                    </li>
+
+                    <!-- <li class="nav-item px-2 py-2 border-0">
+                        <a href="#" class="nav-link text-dark fs-4">Contact Us</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search Box Area Start -->
+    <div class="body-popup-modal-area" id="search-overlay">
+        <span class="modal-close" onclick="closeSearch()"><img src="./images/cancel.png" alt="Close"
+                class="img-fluid" /></span>
+        <div class="modal-container d-flex">
+            <div class="search-box-area">
+                <div class="search-box-form">
+                    <form action="#" method="post">
+                        <input type="search" class="no-cancel-button" placeholder="SEARCH" />
+                        <button class="btn" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Search Box Area End -->
+
+    <!-- Page Title Start -->
+    <div id="page-title-area2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="page-title-content">
+                        <h1>Contact Us</h1>
+                        <p>Get in touch with us. Feel free to make yourself at home!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Title End -->
+
+    <!-- Customize Start -->
+    <div class="customize-area" id="customize">
+        <div class="container my-3">
+            <div class="row single-form g-0">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="left">
+                        <h2><span>Talk to us for</span> <br>Questions or Customized Orders</h2>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-6">
+                    <div class="right">
+                        <i class="fa fa-caret-left"></i>
+                        <form>
+                            <div class="mb-3 pb-2">
+                                <label for="exampleInputInputName1" class="form-label">Your Name:</label>
+                                <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter full name">
+                            </div>
+                            <div class="mb-3 pb-2">
+                                <label for="exampleInputEmail1" class="form-label">Email Address:</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email address">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                </div>
+                            </div>
+                            <div class="mb-3 pb-2">
+                                <label for="exampleInputEmail1" class="form-label">Contact Number:</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter contact number">
+                            </div>
+                            <div class="mb-1">
+                                <label for="exampleInputPassword1" class="form-label">Any Messages?</label>
+                                <textarea class="form-control" id="exampleInputPassword1" rows="1" placeholder="Type here..."></textarea>
+                            </div>
+
+                            <button type="submit" class="buy-btn mb-5">Submit</button>
+
+                            <div class="mb-3">
+                                <h3 class="marketing text-uppercase fw-semibold mb-4">Marketing Options</h3>
+                                <div>
+                                    <a href="email.html" class="marketbtn me-2">Email</a>
+                                    <a href="socmed.html" class="marketbtn">Social Media</a>
+                                </div>
+                                <!-- <div class="row justify-content-start">
+                                    <div class="row justify-content-evenly">
+                                        <div class="col-4">
+                                            <a href="email.html" class="buy-btn">Email</a>
+                                        </div>
+                                        <div class="col-4">
+                                            <button type="submit" class="buy-btn">Social Media</button>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Customize End -->
+
+    <!-- Icons Start -->
+    <div class="container contact-icons mb-5">
+        <h1 class="text-center fw-medium text-dark mt-md-3">Our Contact Details</h1>
+        <div class="text-center mt-5 pt-4">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-5 mb-lg-0 position-relative">
+                    <i class="fa-solid fa-phone-volume fa-3x mb-4"></i>
+                    <h5 class="text-dark fw-bold mb-3">Phone Number</h5>
+                    <h6 class="fw-normal mb-0">0949 141 6532</h6>
+                    <div class="vr vr-blurry position-absolute my-0 h-100 d-none d-md-block top-0 end-0"></div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-5 mb-lg-0 position-relative">
+                    <i class="fa-solid fa-envelope-open-text fa-3x mb-4"></i>
+                    <h5 class="text-dark fw-bold mb-3">Email Address</h5>
+                    <h6 class="fw-normal mb-0">ninethreefive3@gmail.com</h6>
+                    <div class="vr vr-blurry position-absolute my-0 h-100 d-none d-md-block top-0 end-0"></div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 position-relative">
+                    <i class="fa-brands fa-facebook fa-3x mb-4"></i>
+                    <h5 class="text-dark fw-bold mb-3">Facebook Page</h5>
+                    <h6 class="fw-normal mb-0">facebook.com/profile.php?id=61554874748422</h6>
+                    <div class="vr vr-blurry position-absolute my-0 h-100 d-none d-md-block top-0 end-0"></div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 position-relative">
+                    <i class="fa-brands fa-square-instagram fa-3x mb-4"></i>
+                    <h5 class="text-dark fw-bold mb-3">Instagram Page</h5>
+                    <h6 class="fw-normal mb-0">instagram.com/_ninethreefive</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <gmp-map center="15.14500077077693, 120.59126559191664" zoom="19" map-id="DEMO_MAP_ID" style="height: 400px" class="mb-5 py-2">
+
+            <gmp-advanced-marker position="15.14497557765957, 120.59122814974513" title="NineThreeFive"></gmp-advanced-marker>
+
+        </gmp-map>
+    </div>
+    <!-- Icons End -->
+
+
+    <!-- Footer Start -->
+    <footer class="bg-dark py-5">
+        <div class="container text-light text-center">
+            <div class="container d-flex justify-content-center py-2">
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-1 bg-dark">
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2 bg-dark">
+                    <i class="fab fa-instagram"></i>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-1 bg-dark">
+                    <i class="fab fa-tiktok"></i>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-1 bg-dark">
+                    <i class="fa-solid fa-envelope"></i>
+                </button>
+            </div>
+
+            <p class="fs-1 mb-2">Ninethreefive</p>
+            <small class="text-white-50">&copy; Copyright by Ninethreefive. All rights reserved.</small>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMVMRayy-OYQNkcUL2_qx6HNqVOZmZpv8&libraries=maps,marker&v=beta" defer></script>
+
+    <script src="script/scripts.js"></script>
+    <script src="script/addtocart.js"></script>
+</body>
+
+</html>
